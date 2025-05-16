@@ -2,9 +2,9 @@ def addressVal(address):
     dot = address.find(".")
     at = address.find("@")
     if (dot == -1):
-        print("Invalid")
+        print("invalid")
     elif (at == -1):
-        print("Invalid")
+        print("invalid")
     else:
         print("Valid")
 
